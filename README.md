@@ -1,4 +1,4 @@
-# performance_evaluation-_clustering
+# performance_evaluation_clustering
 Performance evaluation of clustering protocols in ns2
 
 # Requirements
