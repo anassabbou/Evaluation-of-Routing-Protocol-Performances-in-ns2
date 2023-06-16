@@ -3,7 +3,8 @@ Performance evaluation of clustering protocols in ns2
 
 # Requirements
 - compilator gcc-4.8, g++-4.8 & java
-- ns-allinone-2.35
+- ns-allinone-2.35 
+- ns2 2.34 (https://sourceforge.net/projects/nsnam/files/ns-2/2.34/)
 - ubuntu 22.04
 - gnuplot
 
