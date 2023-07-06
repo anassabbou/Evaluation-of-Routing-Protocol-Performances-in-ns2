@@ -44,8 +44,8 @@ In all the above places, change @CC@ to gcc-4.8 and @CPP@ @CXX@ to g++-4.8
 Open the file : ns-2.35/linkstate/ls.h <br>
 in line number 137, change the line erase to this-erase
 
-## Once the installation is over, Set the PATH and LD_LIBRARY_PATH infomration in the file located at 
-/home/anass/.basic <br>
+## Once the installation is over
+Set the PATH and LD_LIBRARY_PATH infomration in the file located at /home/anass/.basic <br>
 
 export PATH=$PATH:/home/anass/ns-allinone-2.35/bin:/home/anass/ns-allinone-2.35/tcl8.5.10/unix:/home/anass/ns-allinone-2.35/tk8.5.10/unix <br>
 export LD_LIBRARY_PATH=/home/anass/ns-allinone-2.35/otcl-1.14:/home/anass/ns-allinone-2.35/lib
