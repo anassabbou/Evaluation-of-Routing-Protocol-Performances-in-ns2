@@ -1,5 +1,9 @@
 <h1 align="center">Evaluation of Routing Protocol Performances in Wireless Sensor Networks</h1>
-Performance evaluation of hierarchical and non hierarchical protocols in ns2
+<p></p>A wireless sensor network can be defined as a network of devices that can communicate the information gathered from a monitored field through wireless links. The data is forwarded through multiple nodes, and with a gateway, the data is connected to other networks like wireless Ethernet. WSN is a wireless network
+that consists of base stations and numbers of wireless sensors. These networks are used to monitor physical or environmental conditions like sound, pressure, temperature and co-operatively pass data through the network to a main location. Routing protocol is one of the most important components of WSN. Routing
+protocol has to monitor the change of network's topological structure, exchange the routing information, locate the destination node, choose the route and transfer the information through route. The main target of hierarchical routing or cluster based routing is to efficiently maintain the energy usage of sensor nodes by
+involving them in multi-hop communication within a particular cluster. Cluster formation is generally based on the energy reserve of sensors and sensors proximity to the Cluster Head. This work presents comparative study of two category of routing protocol, the first is non-hierarchical protocols are DSR and
+AODV. The second category is hierarchical protocols are LEACH and HEED. At the end, the comparative analysis of above the protocols presented to show how the cluster formation improves the lifetime of the network in NS2 and MATLAB simulation tool.</p>
 
 # Requirements
 - compilator gcc-4.8, g++-4.8 & java
