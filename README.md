@@ -12,7 +12,7 @@ AODV. The second category is hierarchical protocols are LEACH and HEED. At the e
 - ubuntu 22.04
 - gnuplot
 
-<h3>How to install ns2 in ubuntu 22.04</h3>
+<h3>How to install ns2 in ubuntu 22.04 (You can follow this <a href="https://www.youtube.com/watch?v=tH0yrJdovWM&ab_channel=EngineeringClinic">Video</a>)</h3>
 <h5>Commands to be used:</h5> 
 $ cat /etc/lsb-release <br>
 $ sudo apt update<br>
