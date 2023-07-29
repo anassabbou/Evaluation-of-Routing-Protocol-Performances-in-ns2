@@ -1,5 +1,5 @@
-# performance_evaluation_clustering
-Performance evaluation of clustering protocols in ns2
+# Evaluation of Routing Protocol Performances in Wireless Sensor Networks
+Performance evaluation of hierarchical and non hierarchical protocols in ns2
 
 # Requirements
 - compilator gcc-4.8, g++-4.8 & java
@@ -7,7 +7,7 @@ Performance evaluation of clustering protocols in ns2
 - ns2 2.34 (<a href="https://sourceforge.net/projects/nsnam/files/ns-2/2.34/">Download ns2<a>)
 - ubuntu 22.04
 - gnuplot
-- 
+
 # How to install ns2 in ubuntu 22.04
 ## Commands to be used:
 $ cat /etc/lsb-release <br>
@@ -15,9 +15,7 @@ $ sudo apt update<br>
 $ sudo apt install build-essential autoconf automake libxmu-dev <br>
 
 ## Requirements of ns2
-gcc-4.8 
-g++-4.8
-Were avaialble only upto 18.04 which the codename is bionic
+gcc-4.8 and g++-4.8 => Were avaialble only upto 18.04 which the codename is bionic
 
 $ sudo gedit /etc/apt/sources.list<br>
 make an entry in the above file
@@ -43,6 +41,9 @@ In all the above places, change @CC@ to gcc-4.8 and @CPP@ @CXX@ to g++-4.8
 
 Open the file : ns-2.35/linkstate/ls.h <br>
 in line number 137, change the line erase to this-erase
+
+
+
 
 ## Once the installation is over
 Set the PATH and LD_LIBRARY_PATH infomration in the file located at /home/anass/.basic <br>
