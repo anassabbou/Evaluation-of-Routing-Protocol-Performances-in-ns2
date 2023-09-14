@@ -12,44 +12,9 @@ AODV. The second category is hierarchical protocols are LEACH and HEED. At the e
 - ubuntu 22.04
 - gnuplot
 
-<h3>How to install ns2 in ubuntu 22.04 (You can follow this <a href="https://www.youtube.com/watch?v=tH0yrJdovWM&ab_channel=EngineeringClinic">Video</a>)</h3>
-<h5>Commands to be used:</h5> 
-$ cat /etc/lsb-release <br>
-$ sudo apt update<br>
-$ sudo apt install build-essential autoconf automake libxmu-dev <br>
-
-<h5>Requirements of ns2</h5>
-gcc-4.8 and g++-4.8 => Were avaialble only upto 18.04 which the codename is bionic
-
-$ sudo gedit /etc/apt/sources.list<br>
-make an entry in the above file
-deb http://in.archive.ubuntu.com/ubuntu/ bionic main universe
-$ sudo apt update<br>
-
-<h5>For any GPG error, include the following command</h5>
-$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32 <br>
-
-$ sudo apt update <br>
-$ sudo apt install gcc-4.8 g++-4.8 <br>
-
-<h5>Make the changes in the follwing files</h5>
-@CC@ to be replaced with gcc-4.8 <br>
-@CPP@ to be replaced with g++-4.8 <br>
-
-ns-allinone-2.35/Makefile.in <br>
-/home/anass/ns-allinone-2.35/otcl-1.14/Makefile.in <br>
-nam-1.15/Makefile.in <br>
-xgraph-12.2/Makefile.in <br>
-
-In all the above places, change @CC@ to gcc-4.8 and @CPP@ @CXX@ to g++-4.8
-
-Open the file : ns-2.35/linkstate/ls.h <br>
-in line number 137, change the line erase to this-erase
-<h5>Once the installation is over</h5>
-Set the PATH and LD_LIBRARY_PATH infomration in the file located at /home/anass/.basic <br>
-
-export PATH=$PATH:/home/anass/ns-allinone-2.35/bin:/home/anass/ns-allinone-2.35/tcl8.5.10/unix:/home/anass/ns-allinone-2.35/tk8.5.10/unix <br>
-export LD_LIBRARY_PATH=/home/anass/ns-allinone-2.35/otcl-1.14:/home/anass/ns-allinone-2.35/lib
+<h3>How to install ns2 in ubuntu 22.04:
+You can follow this <a href="https://www.youtube.com/watch?v=tH0yrJdovWM&ab_channel=EngineeringClinic">Video</a>)</h3>
+or this <a href="https://docs.google.com/document/d/1sMdOe3LU2f8DZFR9YY-3KGZaC-5_isnqyX9ZKxAK_HA/edit?usp=sharing">instraction</a>
 
 
 <h3 align="left">Connect with me:</h3>
